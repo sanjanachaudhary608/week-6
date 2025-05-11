@@ -1,0 +1,64 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #e0eafc);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styling */
+header {
+  background-color: #4a90e2;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Container to center content */
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* This vertically centers the content */
+  padding: 20px;
+}
+
+/* Main section */
+main {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Link styling */
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer sticks to bottom */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #777;
+  background-color: #f1f1f1;
+}
