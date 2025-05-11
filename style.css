@@ -9,7 +9,7 @@ html,
 body {
   height: 100%;
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(to right, #f9f9f9, #e0eafc);
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
   color: #333;
   display: flex;
   flex-direction: column;
@@ -18,30 +18,45 @@ body {
 /* Header styling */
 header {
   background-color: #4a90e2;
-  padding: 20px;
-  text-align: center;
   color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 25px 15px;
 }
 
-/* Container to center content */
+header .tagline {
+  font-size: 1rem;
+  margin-top: 8px;
+  font-weight: 300;
+  color: #e0f0ff;
+}
+
+/* Container centers the main */
 .container {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center; /* This vertically centers the content */
-  padding: 20px;
+  align-items: center;
+  padding: 40px 20px;
 }
 
-/* Main section */
+/* Main content styling */
 main {
-  max-width: 600px;
+  max-width: 500px;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile image */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
 /* Link styling */
@@ -54,11 +69,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Footer sticks to bottom */
+/* Footer */
 footer {
   text-align: center;
   padding: 15px;
   font-size: 14px;
-  color: #777;
   background-color: #f1f1f1;
+  color: #555;
 }
